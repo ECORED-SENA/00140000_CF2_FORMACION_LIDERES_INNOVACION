@@ -1,0 +1,62 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "introduccion",
+    "title": "Introduccion",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/introduccion.html"     
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "componentes-bs",
+    "title": "1. Gobernanza",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/1-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "1.1 Definición y características",
+        "anchor": "tema1"
+      },   
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "1.2 Políticas a nivel nacional y regional",
+        "anchor": "tema2"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "1.3 Principales actores",
+        "anchor": "tema3"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "1.4 Elementos del proceso de gobernanza",
+        "anchor": "tema4"
+      },     
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "1.5 Visión de futuro",
+        "anchor": "tema5"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "1.6 Herramientas para la construcción de una visión de futuro de la ciencia, la tecnología y la innovación",
+        "anchor": "tema6"
+      }
+    ]   
+  }
+]
