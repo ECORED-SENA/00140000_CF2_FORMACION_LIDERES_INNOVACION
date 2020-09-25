@@ -36,7 +36,7 @@ html(lang="es")
                             .card-body
 
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('play', 'Introducción', '#introduccion')
+                                    //- +navTemaItem('play', 'Introducción', '#introduccion')
                                     +navTemaItem('1', 'Normativa vigente proceso ECCL', '#tema-1')
                                     +navTemaItem('question', 'Actividad didáctica', '#evaluacion')
                                     +navTemaItem('glosary', 'Glosario', '#glosario')
@@ -45,8 +45,8 @@ html(lang="es")
 
 
         section#mainContent         
-            #introduccion
-                include pages/introduccion.pug
+            //- #introduccion
+            //-     include pages/introduccion.pug
             #tema-1
                 include pages/1-tema.pug
             #evaluacion
